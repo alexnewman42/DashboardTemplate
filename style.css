@@ -16,7 +16,14 @@
     height: 100vh;
     display: grid;
     padding: 32px;
+}
 
+.top-nav ul li {
+    list-style-type: none;
+}
+
+.bottom-nav ul li {
+    list-style-type: none;
 }
 
 .logo {
