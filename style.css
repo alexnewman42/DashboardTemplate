@@ -35,6 +35,11 @@
     height: 10vh;
 }
 
+.logo img {
+    width: 40px;
+    height: auto;
+}
+
 .top-nav {
     font-size: 32px;
     height: 30vh;
