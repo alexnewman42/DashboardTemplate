@@ -7,22 +7,19 @@
     font-family: Roboto, sans-serif;
 }
 
+h1 {
+    font-size: 40px;
+}
+
 .container {
-    text-align: center;
     display: grid;
-    grid-template-columns: 1fr 5fr; 
+    grid-template-columns: 20% 80%; 
 }
 
 .left-sidebar {
     background-color: #1992d4;
     color: white;
-    grid-row: 1 / 4;
     height: 100vh;
-    display: grid;
-}
-
-h1 {
-    font-size: 40px;
 }
 
 .logo {
@@ -30,13 +27,19 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 10px 50px;
-    height: 10vh;
+    margin: 20px 0;
 }
 
 .logo img {
     width: 40px;
     height: auto;
+}
+
+.icon-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
