@@ -22,32 +22,22 @@
     padding: 32px;
 }
 
-.top-nav ul li {
-    list-style-type: none;
-}
-
-.bottom-nav ul li {
-    list-style-type: none;
+h1 {
+    font-size: 40px;
 }
 
 .logo {
-    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
     height: 10vh;
 }
 
 .logo img {
     width: 40px;
     height: auto;
-}
-
-.top-nav {
-    font-size: 32px;
-    height: 30vh;
-}
-
-.bottom-nav {
-    font-size: 32px;
-    height: 60vh;
 }
 
 .header {
