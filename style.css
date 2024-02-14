@@ -57,7 +57,19 @@ h1 {
     background-color: white;
     color: black;
     height: 20vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
+
+.search {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.search input {
+    color: #e2e8f0
+}
+
 
 .content {
     background-color: #e2e8f0;;
