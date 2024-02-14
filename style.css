@@ -13,7 +13,7 @@ h1 {
 
 .container {
     display: grid;
-    grid-template-columns: 15% 85%; 
+    grid-template-columns: 15vw 85vw; 
 }
 
 .left-sidebar {
@@ -67,12 +67,17 @@ h1 {
 }
 
 .search input {
-    color: #e2e8f0
+    color: #f2f8ff;
+}
+
+.search img {
+    width: 32px;
+    height: auto;
 }
 
 
 .content {
-    background-color: #e2e8f0;;
+    background-color: #f2f8ff;
     color: black;
     height: 80vh;
 }
