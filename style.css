@@ -55,33 +55,9 @@ h1 {
     font-size: 28px;
 }
 
-.header {
+.main {
     background-color: white;
-    color: black;
-    height: 20vh;
-    grid-area: 1 / 2 / 2 / 2;
+    height: 100vh;
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 30% 70%;
 }
-
-.search {
-    grid-area: 2 / 2 / 2 / 2;
-}
-
-.search input {
-    color: #f2f8ff;
-}
-
-.search img {
-    width: 32px;
-    height: auto;
-}
-
-
-.content {
-    background-color: #f2f8ff;
-    color: black;
-    height: 80vh;
-}
-
