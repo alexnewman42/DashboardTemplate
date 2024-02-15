@@ -69,7 +69,19 @@ h1 {
 }
 
 .navbar {
-    
+    color: black;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+}
+
+.form-input {
+    width: 500px;
+    background-color: #d4d4d4;
+    border-radius: 10px;
+    border: 1px solid #d4d4d4;
+    margin-left: 20px;
+    margin-right: 200px;
 }
 
 .content {
